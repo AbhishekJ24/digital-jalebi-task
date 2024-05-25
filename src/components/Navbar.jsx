@@ -1,4 +1,6 @@
-import { React, useState } from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState(false)
 
@@ -9,9 +11,9 @@ const Navbar = () => {
                     <a href="/"> Searchify </a>
                 </div>
                 <ul className='md:flex md:gap-10 md:visible hidden'>
-                    <li> Home </li>
-                    <li> Playground </li>
-                    <li> Docs </li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Playground">Playground</Link></li>
+                    <li><Link to="/Docs">Docs</Link></li>
                 </ul>
                 <button className='bg-transparent border-none invert md:hidden hover:invert-0' onClick={() => { setMobileMenu(!mobileMenu) }}>
                         <img src="src/assets/menu.svg" alt="" />
