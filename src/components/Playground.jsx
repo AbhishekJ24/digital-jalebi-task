@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
 const Playground = () => {
-    
+
     const [resp, setResp] = useState(false);
     const [data, setData] = useState(null);
     const [seeMore, setseeMore] = useState(false);
@@ -90,7 +90,7 @@ const Playground = () => {
                                         }}
                                         className="border-none bg-transparent mt-1 hover:invert"
                                     >
-                                        <img src="src/assets/more.svg" alt="" />
+                                        <img src="more.svg" alt="" />
                                     </button>
                                 </td>
                             </tr>
