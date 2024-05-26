@@ -25,7 +25,7 @@ const Home = () => {
 
                 <div className='text-slate-50 text-2xl w-2/4 text-center m-auto mb-14 mt-4 font-semibold'> Harness the power of React.js to fetch an API and filter the responses while experiencing an immersive UI/UX</div>
 
-                <div className='flex flex-wrap justify-center gap-10 mb-28'>
+                <div className='flex flex-wrap justify-center gap-7 mb-28'>
 
                     <Tilt options={defaultOptions}>
                         <motion.div initial={{ opacity: 0, scale: 0.5 }}
