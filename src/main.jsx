@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import Navbar from './components/Navbar'
-import Footer from './components/Footer';
 import Home from './components/Home';
 import Playground from './components/Playground';
 import Docs from './components/Docs'
@@ -15,7 +14,6 @@ const router = createBrowserRouter([
     element: <>
       <Navbar />
       <Home />
-      <Footer />
     </>
   },
   {
@@ -23,7 +21,6 @@ const router = createBrowserRouter([
     element: <>
       <Navbar />
       <Playground />
-      <Footer />
     </>
   },
   {
@@ -31,7 +28,6 @@ const router = createBrowserRouter([
     element: <>
       <Navbar />
       <Docs />
-      <Footer />
     </>
   }
 ])
