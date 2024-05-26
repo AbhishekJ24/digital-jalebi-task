@@ -12,10 +12,13 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='bg-slate-900 text-slate-200 flex justify-between items-center h-20 md:px-20 py-8 px-6 mb-20'>
-                <div className='text-3xl font-extrabold'>
-                    <a href="/"> Searchify </a>
-                </div>
+            <nav className='bg-slate-900 text-slate-200 flex justify-between items-center h-20 md:px-20 py-8 px-6'>
+                <a href="/">
+                    <div className='text-3xl font-extrabold flex items-center gap-5'>
+                        <img className='w-12' src="logo.png" alt="logo_404" />
+                        Searchify
+                    </div>
+                </a>
                 <ul className='xl:flex xl:gap-10 xl:visible hidden'>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Playground">Playground</Link></li>

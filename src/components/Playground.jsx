@@ -37,6 +37,7 @@ const Playground = () => {
 
     return (
         <>
+            <h1 className="text-4xl font-bold my-10 text-center text-white">Playground</h1>
             <div className="my-11 flex justify-center">
                 <form onSubmit={handleSearch}>
                     <input

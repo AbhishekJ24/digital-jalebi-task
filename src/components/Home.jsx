@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <>
-            <div className=''>
+            <div className='mt-20'>
                 <div className='grad font-extrabold md:text-3xl text-2xl text-center leading-normal' >
                     <TypeAnimation sequence={['Welcome to  Searchify', 2500,]} wrapper="span" speed={10} style={{ fontSize: '60px', display: 'inline-block' }} repeat={Infinity} className='my-6' />
                 </div>
