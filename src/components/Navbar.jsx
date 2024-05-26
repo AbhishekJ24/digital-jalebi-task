@@ -1,8 +1,14 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
     const [mobileMenu, setMobileMenu] = useState(false)
+    const loc = useLocation()
+
+    useEffect(() => {
+        setMobileMenu(false)
+    }, [loc])
+
 
     return (
         <>
@@ -16,8 +22,8 @@ const Navbar = () => {
                     <li><Link to="/Docs">Docs</Link></li>
                 </ul>
                 <button className='bg-transparent border-none invert xl:hidden hover:invert-0' onClick={() => { setMobileMenu(!mobileMenu) }}>
-                        <img src="src/assets/menu.svg" alt="" />
-                    </button>
+                    <img src="src/assets/menu.svg" alt="" />
+                </button>
                 {mobileMenu &&
                     <ul className='absolute z-10 right-10 top-10 bg-slate-300 rounded-xl py-5 px-4 text-slate-950'>
                         <li className='mb-3'> <Link to="/"> Home </Link> </li>
