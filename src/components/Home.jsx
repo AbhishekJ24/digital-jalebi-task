@@ -17,13 +17,13 @@ const Home = () => {
 
     return (
         <>
-            <div className='mt-28'>
-                <div className='grad font-extrabold md:text-3xl text-2xl text-center leading-relaxed' >
-                    <TypeAnimation sequence={['Welcome to Searchify', 2500,]} wrapper="span" speed={10} style={{ fontSize: '2em', display: 'inline-block' }} repeat={Infinity} className='mb-10' />
+            <div className=''>
+                <div className='grad font-extrabold md:text-3xl text-2xl text-center' >
+                    <TypeAnimation sequence={['Welcome to Searchify', 2500,]} wrapper="span" speed={10} style={{ fontSize: '60px', display: 'inline-block' }} repeat={Infinity} className='my-6' />
                 </div>
 
 
-                <div className='text-slate-50 text-2xl w-2/4 text-center m-auto mb-14 font-semibold'> Harness the power of React.js to fetch an API and filter the responses while experiencing an immersive UI/UX</div>
+                <div className='text-slate-50 text-2xl w-2/4 text-center m-auto mb-14 mt-6 font-semibold'> Harness the power of React.js to fetch an API and filter the responses while experiencing an immersive UI/UX</div>
 
                 <div className='flex flex-wrap justify-center gap-10 mb-28'>
 

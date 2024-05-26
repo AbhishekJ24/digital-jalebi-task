@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className='bg-slate-900 text-slate-200 flex justify-between items-center h-20 md:px-20 py-8 px-6 mb-10'>
+            <nav className='bg-slate-900 text-slate-200 flex justify-between items-center h-20 md:px-20 py-8 px-6 mb-20'>
                 <div className='text-3xl font-extrabold'>
                     <a href="/"> Searchify </a>
                 </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
                     <img src="menu.svg" alt="" />
                 </button>
                 {mobileMenu &&
-                    <ul className='absolute z-10 right-10 top-10 bg-slate-300 rounded-xl py-5 px-4 text-slate-950'>
+                    <ul className='absolute z-10 max-sm:right-14 max-sm:top-14 sm:right-24 sm:top-16 bg-slate-300 rounded-xl py-5 px-4 text-slate-950'>
                         <li className='mb-3'> <Link to="/"> Home </Link> </li>
                         <li className='mb-3'> <Link to="/Playground"> Playground </Link> </li>
                         <li> <Link to="/Docs"> Docs </Link> </li>
