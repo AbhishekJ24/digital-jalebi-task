@@ -6,7 +6,7 @@ const Docs = () => {
     { title: 'Usage', description: 'For usage through local system, you may clone the repository from GitHub.' },
     { title: 'Configuration', description: 'For configuring the project, we can utilize npm. After cloning the repository, simple run the command npm i to install all of the required dependenices and finally running the command npm run dev to run the project on local host with port 5173.' },
     { title: 'API Reference', description: 'The API used here is the dummy API which generates a JSON object of random users with their different details including first name, last name, gender, etc.' },
-    { title: 'Technology Stack', description: 'JavaScript (scripting language), React.js (JS framework), Tailwind CSS (utility library for styling), TypeAnimation (react-type-animation), Tilt (react-tilt), motion (framer-motion).' }
+    { title: 'Technology Stack', description: 'JavaScript (scripting language), React.js (JS framework), Vite (Development Environment) Tailwind CSS (utility library for styling), TypeAnimation (react-type-animation), Tilt (react-tilt), motion (framer-motion).' }
   ];
 
   return (
